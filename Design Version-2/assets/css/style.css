@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900|Roboto+Slab:300,400,700|Open+Sans:300,300i,400,400i,600,700,800');
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: #686868;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+a:focus,a:hover {
+    color: #050035;
+    text-decoration: none;
+}
+.pdt120 {
+    padding-top: 125px;
+    padding-bottom: 140px;
+}
+.pdt-30 {
+    padding: 30px;
+}
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+/* 3.2 Menu style of book */
+.menu-style-2 nav>ul>li {
+    display: inline-block;
+    margin: 0 16px;
+    position: relative;
+}
+.menu-style-2.book-menu nav>ul>li {
+    margin: 0 30px;
+}
+.header-bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-style-2 nav>ul>li>a {
+    color: #383838;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px 0 20px;
+    text-transform: capitalize;
+}
+.logo-2 h2 {
+    padding: 25px 0 20px;
+    color: #4984e5;
+    font-weight: 600;
+}
+.header-bottom {
+    background: #f9faff;
+}
+.banner {
+    padding: 120px 0px 120px 0;
+}
+/* 3.3 Slider style book */
+.slider-content-book h1 {
+    color: #383838;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 53px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.slider-content-book h1 span {
+    color: #f44344;
+}
+.slider-content-book>a {
+    background-color: rgb(244, 67, 68);
+    color: rgb(245, 252, 255);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 16px 40px 15px;
+}
+.slider-content-book h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+.slider-content-book p {
+    color: #383838;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 16px 0 46px;
+    width: 35%;
+}
+.single-slider-book1 {
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.book-banner-wrapper>img {
+    width: 100%;
+}
+.book-banner-wrapper {
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 8px 18px 0px rgba(72, 73, 121, 0.12);
+    border-radius: 5px;
+}
+.banner-book-style1 {
+    padding: 0px 33px 0px 0px;
+    position: relative;
+    right: 0;
+    text-align: right;
+    top: -35px
+}
+a.banner-book-style-btn {
+    background-color: #ad6fff;
+    border-radius: 50px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 15px 30px 14px;
+    text-transform: uppercase;
+}
+/* 3.7 Discount style book */
+.discount-area {
+    display: block;
+    overflow: hidden;
+    background-image: url(../img/product/book/slider-bg.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.new-top-wrapper {
+    /* box-shadow: 0px 4px 8px 0px rgba(72, 73, 121, 0.11); */
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+.new-top-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+}
+.new-top-content>h4 {
+    color: #353535;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.new-top-content span {
+    color: #a18aff
+}
+.new-top-content>h4 a {
+    color: #353535;
+}
+.new-top-content>h4 a:hover {
+    color: #f44344;
+}
+.product-price {
+    display: flex;
+    line-height: 1;
+    margin: 20px 0 17px;
+}
+.product-price .old-price span {
+    color: #828282;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 4px;
+    text-decoration: line-through;
+}
+.product-price .new-price span {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+}
+.new-top-content {
+    padding: 25px 0 0 35px;
+}
+
+.gray-bg-6 {
+    background: #eeeeee;
+}
+ .card{
+     padding: 15px;
+     margin-bottom:15px;
+     border:none!important;
+     box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.12);
+     background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+}
+ .card-two{
+     background-image: linear-gradient(315deg, #fc6e6e 0%, #ad1deb 74%);
+}
+ .card-three{
+     background-image: linear-gradient(315deg, #007cc6 0%, #d24aeb 74%);
+}
+ .card-title{
+     color: #fff;
+     font-size: 20px;
+}
+ .card-body {
+     padding: 1.1rem;
+}
+ .card-text{
+     color: #ddd;
+     padding-bottom: 15px;
+}
+ .btn-primary{
+     background-color: transparent;
+     border:2px solid #fff;
+     border-radius: inherit;
+}
+ .cart-btn{
+     background-color: #edeef2;
+     color: #333;
+     width: 114px;
+     border-radius: 30px;
+     margin: 0 auto;
+     margin-top: -21px;
+     margin-right: 16px;
+     font-size: 13px;
+}
+ .first-bt{
+    border: 4px solid #933ff1;
+}
+ .second-bt{
+    border: 4px solid #de4f9e;
+}
+ .third-bt{
+    border: 4px solid #4f6ad4;
+}
+ .fa-cart-plus{
+     padding-right: 10px;
+}
+ .writer-content{
+     padding: 20px 15px;
+     background: #fafafa;
+     border-radius: 30px 30px 5px 5px;
+     box-shadow: 0px 4px 7px 0px rgba(72, 73, 121, 0.11);
+     top: -63px;
+     transition: 0.5s;
+     position: relative;
+}
+ .writer-content h4 {
+     color: #333;
+}
+ .writer-content span{
+     color: #9b8dff;
+}
+ .writer-wrapper img{
+     top: 0;
+     box-shadow: 0px 4px 8px 0px rgba(72, 73, 121, 0.11);
+     border-radius: 5px;
+}
+ .writer-wrapper img:hover +.writer-content{
+     top: -80px;
+     transition: 0.3s;
+}
+ .section-title-3 h2{
+     padding-bottom: 40px;
+}
+ .top-month {
+     background-image: url(../img/product/book/h2-bg3.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+ .banner-area{
+     background-image: url(../img/product/book/feature-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     background-position: center center;
+}
+ .slider-area{
+     background-position: center center;
+     background-repeat: no-repeat;
+     position: relative;
+     background-size: cover;
+     padding: 0px 0px 150px 0;
+     width: 100vw;
+     background-image: url(../img/banner/banner.png);
+}
